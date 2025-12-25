@@ -1,0 +1,57 @@
+body {
+    margin: 0; 
+    background-color: #1B244A;                                              
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;                                                
+}
+.Score{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background-color: #080001;
+    color: #F94F6D;
+     width: 155px;      /* Figma-Gesamtbreite */
+  height: 120px;     /* Figma-Gesamthöhe */
+  border: 1px solid #080001; /* Falls Border in Figma sichtbar */
+  border-radius: 5px;
+  box-sizing: border-box; /* Padding/Border INKLUDIERT in 155x120px */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  margin: auto;
+}
+.btn-container{
+    margin: 15px 0 0 10px;
+}
+.btn{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    width: 45px;
+  height: 45px; /* Content schrumpft auf 33x33px, Gesamt bleibt 45x45px */
+  border: 1px solid;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #9AABD8;
+  background-color: #1B244A;
+  margin: 3px;
+}
+.heading{
+    color: azure;
+    margin: 0px 40px;
+    font-size: 35px;
+    
+}
+#new-game{
+    
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #9AABD8;
+  background-color: #1B244A;
+  font-size: 30px;
+}
